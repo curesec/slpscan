@@ -1,4 +1,4 @@
-# slpscan - protecting the innocent
+# slpscan - service locator protocol scanner
 
 ## intro
 

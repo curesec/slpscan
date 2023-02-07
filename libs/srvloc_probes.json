@@ -1,0 +1,151 @@
+{
+    "1": {
+        "name": "svc_type_req_holder_v1",
+        "brief": "example pkt, svc_type_req_v1",
+        "devices": [],
+        "description": "example pkt, svc_type_req_v1",
+        "probe": {
+            "base": {
+                "slp_ver": 1,
+                "slp_func": 9,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_dialect": 0,
+                "slp_lang": 25966,
+                "slp_enc": 3,
+                "slp_transx": 666
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_all": 65535,
+                "slp_scope": "default"
+            }
+        }
+    },
+    "2": {
+        "name": "svc_attr_req_holder_v1",
+        "brief": "example request, svc_attr_req_v1",
+        "devices": [],
+        "description": "example request, svc_attr_req_v1",
+        "probe": {
+            "base": {
+                "slp_ver": 1,
+                "slp_func": 6,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_dialect": 0,
+                "slp_lang": 25966,
+                "slp_enc": 3,
+                "slp_transx": 667
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_svc_len": 8,
+                "slp_svc_url": "service:",
+                "slp_scope_len": 0,
+                "slp_attr_len": 0
+            }
+        }
+    },
+    "3": {
+        "name": "svc_req_holder_v2",
+        "brief": "example pkt, svc_req_v2",
+        "devices": [],
+        "description": "example pkt, svc_req_v2",
+        "probe": {
+            "base": {
+                "slp_ver": 2,
+                "slp_func": 1,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_next_offset": 0,
+                "slp_xid": 12345,
+                "slp_ltag_len": 2,
+                "slp_ltag": 25966
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_svc_type_len": 0,
+                "slp_svc_type": "service:https",
+                "slp_scope_len": 13,
+                "slp_scope": "default"
+            }
+        }
+    },
+    "4": {
+        "name": "svc_type_req_holder_v2",
+        "brief": "example pkt, svc_type_req_v2",
+        "devices": [],
+        "description": "example pkt, svc_type_req_v2",
+        "probe": {
+            "base": {
+                "slp_ver": 2,
+                "slp_func": 9,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_next_offset": 0,
+                "slp_xid": 45267,
+                "slp_ltag_len": 2,
+                "slp_ltag": 25966
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_all": 65535,
+                "slp_scope": "default",
+                "slp_scope_len": 7
+            }
+        }
+    },
+    "5": {
+        "name": "svc_attr_req_holder_v2",
+        "brief": "example pkt, svc_attr_req_v2",
+        "devices": [],
+        "description": "example pkt, svc_attr_req_v2",
+        "probe": {
+            "base": {
+                "slp_ver": 2,
+                "slp_func": 6,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_next_offset": 0,
+                "slp_xid": 19121,
+                "slp_ltag_len": 2,
+                "slp_ltag": 25966
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_svc_url_len": 13,
+                "slp_svc_url": "service:https",
+                "slp_scope_len": 0,
+                "slp_scope": "",
+                "slp_tag_len": 0,
+                "slp_tag": ""
+            }
+        }
+    },
+    "6": {
+        "name": "VMWARE_SVC_Request_https",
+        "brief": "service:https",
+        "devices": [],
+        "description": "",
+        "probe": {
+            "base": {
+                "slp_ver": 2,
+                "slp_func": 1,
+                "slp_pkt_len": 0,
+                "slp_flags": 0,
+                "slp_next_offset": 0,
+                "slp_xid": 23152,
+                "slp_ltag_len": 2,
+                "slp_ltag": 25966
+            },
+            "data": {
+                "slp_prev_res_list": 0,
+                "slp_svc_type_len": 13,
+                "slp_svc_type": "service:https",
+                "slp_scope_len": 7,
+                "slp_scope": "default"
+            }
+        }
+    }
+}
