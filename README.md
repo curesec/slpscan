@@ -1,4 +1,4 @@
-# slpscan - service locator protocol scanner
+# slpscan - service location protocol scanner
 
 ## intro
 
